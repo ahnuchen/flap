@@ -47,7 +47,7 @@ var Bitmap = egret.Bitmap;
 var Main = (function (_super) {
     __extends(Main, _super);
     function Main() {
-        var _this = _super !== null && _super.apply(this, arguments) || this;
+        var _this = _super.call(this) || this;
         _this.grounds = [];
         _this.groundSpeed = 0.2;
         _this.timeOnEnterFrame = 0;
@@ -60,10 +60,6 @@ var Main = (function (_super) {
         _this.gameState = 0; //游戏状态：0--未开始，1--已开始，2--已结束
         _this.pipeUps = [];
         _this.pipeDowns = [];
-        return _this;
-    }
-    Main.prototype.createChildren = function () {
-        _super.prototype.createChildren.call(this);
         egret.lifecycle.addLifecycleListener(function (context) {
             // custom lifecycle plugin
         });
@@ -73,15 +69,11 @@ var Main = (function (_super) {
         egret.lifecycle.onResume = function () {
             egret.ticker.resume();
         };
-        //inject the custom material parser
-        //注入自定义的素材解析器
-        var assetAdapter = new AssetAdapter();
-        egret.registerImplementation("eui.IAssetAdapter", assetAdapter);
-        egret.registerImplementation("eui.IThemeAdapter", new ThemeAdapter());
-        this.runGame().catch(function (e) {
+        _this.runGame().catch(function (e) {
             console.log(e);
         });
-    };
+        return _this;
+    }
     Main.prototype.runGame = function () {
         return __awaiter(this, void 0, void 0, function () {
             return __generator(this, function (_a) {
@@ -121,38 +113,26 @@ var Main = (function (_super) {
             return __generator(this, function (_a) {
                 switch (_a.label) {
                     case 0:
-                        _a.trys.push([0, 4, , 5]);
+                        _a.trys.push([0, 3, , 4]);
                         loadingView = new LoadingUI();
-                        this.stage.addChild(loadingView);
+                        this.addChild(loadingView);
                         return [4 /*yield*/, RES.loadConfig("resource/default.res.json", "resource/")];
                     case 1:
                         _a.sent();
-                        return [4 /*yield*/, this.loadTheme()];
-                    case 2:
-                        _a.sent();
+                        // await this.loadTheme();
                         return [4 /*yield*/, RES.loadGroup("preload", 0, loadingView)];
-                    case 3:
+                    case 2:
+                        // await this.loadTheme();
                         _a.sent();
-                        this.stage.removeChild(loadingView);
-                        return [3 /*break*/, 5];
-                    case 4:
+                        this.removeChild(loadingView);
+                        return [3 /*break*/, 4];
+                    case 3:
                         e_1 = _a.sent();
                         console.error(e_1);
-                        return [3 /*break*/, 5];
-                    case 5: return [2 /*return*/];
+                        return [3 /*break*/, 4];
+                    case 4: return [2 /*return*/];
                 }
             });
-        });
-    };
-    Main.prototype.loadTheme = function () {
-        var _this = this;
-        return new Promise(function (resolve, reject) {
-            // load skin theme configuration file, you can manually modify the file. And replace the default skin.
-            //加载皮肤主题配置文件,可以手动修改这个文件。替换默认皮肤。
-            var theme = new eui.Theme("resource/default.thm.json", _this.stage);
-            theme.addEventListener(eui.UIEvent.COMPLETE, function () {
-                resolve();
-            }, _this);
         });
     };
     Main.prototype.createGameScene = function () {
@@ -169,7 +149,7 @@ var Main = (function (_super) {
             this.pipeHeight[i] = Math.ceil(Math.random() * 256) + 100; //高度范围从56~272
         }
         for (var i = 0; i < 3; i++) {
-            this.pipeOnBox[i][0] = this.stage.width + i * this.pipeInterval;
+            this.pipeOnBox[i][0] = this.stage.stageWidth + i * this.pipeInterval;
             this.pipeOnBox[i][1] = this.pipeHeight[this.pipeNumber];
             this.pipeNumber++;
             var pipeUp = this.createBitmapByName("pipeup_png");
@@ -259,6 +239,6 @@ var Main = (function (_super) {
         this.bird.status = 0;
     };
     return Main;
-}(eui.UILayer));
+}(egret.DisplayObjectContainer));
 __reflect(Main.prototype, "Main");
 //# sourceMappingURL=Main.js.map

@@ -1,9 +1,9 @@
 import Bitmap = egret.Bitmap;
 
-class Main extends eui.UILayer {
+class Main extends egret.DisplayObjectContainer {
 
-    protected createChildren(): void {
-        super.createChildren();
+    protected constructor() {
+        super();
 
         egret.lifecycle.addLifecycleListener((context) => {
             // custom lifecycle plugin
@@ -16,12 +16,6 @@ class Main extends eui.UILayer {
         egret.lifecycle.onResume = () => {
             egret.ticker.resume();
         };
-
-        //inject the custom material parser
-        //注入自定义的素材解析器
-        let assetAdapter = new AssetAdapter();
-        egret.registerImplementation("eui.IAssetAdapter", assetAdapter);
-        egret.registerImplementation("eui.IThemeAdapter", new ThemeAdapter());
 
 
         this.runGame().catch(e => {
@@ -74,28 +68,17 @@ class Main extends eui.UILayer {
     private async loadResource() {
         try {
             const loadingView = new LoadingUI();
-            this.stage.addChild(loadingView);
+            this.addChild(loadingView);
             await RES.loadConfig("resource/default.res.json", "resource/");
-            await this.loadTheme();
+            // await this.loadTheme();
             await RES.loadGroup("preload", 0, loadingView);
-            this.stage.removeChild(loadingView);
+            this.removeChild(loadingView);
         }
         catch (e) {
             console.error(e);
         }
     }
 
-    private loadTheme() {
-        return new Promise((resolve, reject) => {
-            // load skin theme configuration file, you can manually modify the file. And replace the default skin.
-            //加载皮肤主题配置文件,可以手动修改这个文件。替换默认皮肤。
-            let theme = new eui.Theme("resource/default.thm.json", this.stage);
-            theme.addEventListener(eui.UIEvent.COMPLETE, () => {
-                resolve();
-            }, this);
-
-        })
-    }
 
     protected createGameScene(): void {
         this.sky = this.createBitmapByName("background_png");
@@ -117,7 +100,7 @@ class Main extends eui.UILayer {
             this.pipeHeight[i] = Math.ceil(Math.random() * 256) + 100;//高度范围从56~272
         }
         for (let i = 0; i < 3; i++) {
-            this.pipeOnBox[i][0] = this.stage.width + i * this.pipeInterval;
+            this.pipeOnBox[i][0] = this.stage.stageWidth + i * this.pipeInterval;
             this.pipeOnBox[i][1] = this.pipeHeight[this.pipeNumber];
             this.pipeNumber++;
             let pipeUp: egret.Bitmap = this.createBitmapByName("pipeup_png");

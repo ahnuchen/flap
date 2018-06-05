@@ -2,127 +2,60 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a0675044-c757-4bec-b177-a82784564d4b" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/flap.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.wing/launch.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.wing/settings.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.wing/tasks.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin-debug/AssetAdapter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin-debug/AssetAdapter.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin-debug/Bird.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin-debug/Bird.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin-debug/LoadingUI.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin-debug/LoadingUI.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin-debug/Main.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin-debug/Main.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin-debug/Platform.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin-debug/Platform.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin-debug/ThemeAdapter.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/bin-debug/ThemeAdapter.js.map" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/egretProperties.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/favicon.ico" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/flappybird_3.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/exml.e.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/assetsmanager/assetsmanager.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/assetsmanager/assetsmanager.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/assetsmanager/assetsmanager.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/egret/egret.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/egret/egret.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/egret/egret.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/egret/egret.web.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/egret/egret.web.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/eui/eui.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/eui/eui.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/eui/eui.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/game/game.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/game/game.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/game/game.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/promise/promise.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/promise/promise.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/tween/tween.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/tween/tween.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/libs/modules/tween/tween.min.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/manifest.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/Button/button_down.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/Button/button_up.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/CheckBox/checkbox_select_disabled.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/CheckBox/checkbox_select_down.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/CheckBox/checkbox_select_up.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/CheckBox/checkbox_unselect.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/ItemRenderer/selected.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/Panel/border.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/Panel/header.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/ProgressBar/thumb_pb.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/ProgressBar/track_pb.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/RadioButton/radiobutton_select_disabled.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/RadioButton/radiobutton_select_down.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/RadioButton/radiobutton_select_up.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/RadioButton/radiobutton_unselect.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/ScrollBar/roundthumb.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/ScrollBar/track_sb.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/Slider/thumb.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/Slider/track.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/Slider/tracklight.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/ToggleSwitch/handle.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/ToggleSwitch/off.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/ToggleSwitch/on.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/background.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/bg.jpg" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/bird.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/die.mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/egret_icon.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/flappybirdimages.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/flappybirdimages.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/ground.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/hit.mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/pipedown.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/pipeup.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/point.mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/scoreboard.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/space_tip.png" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/swooshing.mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/assets/wing.mp3" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/config/description.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/default.res.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/default.thm.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/eui_skins/ButtonSkin.exml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/eui_skins/CheckBoxSkin.exml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/eui_skins/HScrollBarSkin.exml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/eui_skins/HSliderSkin.exml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/eui_skins/ItemRendererSkin.exml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/eui_skins/PanelSkin.exml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/eui_skins/ProgressBarSkin.exml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/eui_skins/RadioButtonSkin.exml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/eui_skins/ScrollerSkin.exml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/eui_skins/TextInputSkin.exml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/eui_skins/ToggleSwitchSkin.exml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/eui_skins/VScrollBarSkin.exml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/resource/eui_skins/VSliderSkin.exml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/api.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/bricks/bricks.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/config.android.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/config.bricks.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/config.ios.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/config.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/config.wxgame.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/myplugin.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/node.d.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/tsconfig.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/scripts/wxgame/wxgame.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/AssetAdapter.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Bird.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/LoadingUI.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Main.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/Platform.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/ThemeAdapter.ts" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/template/runtime/native_loader.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/template/runtime/native_require.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/template/runtime/runtime_loader.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/template/web/index.html" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/tsconfig.json" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/wingProperties.json" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/AssetAdapter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/AssetAdapter.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/Main.js" afterPath="$PROJECT_DIR$/bin-debug/Main.js" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/Main.js.map" afterPath="$PROJECT_DIR$/bin-debug/Main.js.map" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/ThemeAdapter.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/ThemeAdapter.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/egretProperties.json" afterPath="$PROJECT_DIR$/egretProperties.json" />
+      <change beforePath="$PROJECT_DIR$/libs/exml.e.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/eui/eui.d.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/eui/eui.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/libs/modules/eui/eui.min.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/manifest.json" afterPath="$PROJECT_DIR$/manifest.json" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/Button/button_down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/Button/button_up.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/CheckBox/checkbox_select_disabled.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/CheckBox/checkbox_select_down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/CheckBox/checkbox_select_up.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/CheckBox/checkbox_unselect.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/ItemRenderer/selected.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/Panel/border.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/Panel/header.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/ProgressBar/thumb_pb.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/ProgressBar/track_pb.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/RadioButton/radiobutton_select_disabled.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/RadioButton/radiobutton_select_down.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/RadioButton/radiobutton_select_up.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/RadioButton/radiobutton_unselect.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/ScrollBar/roundthumb.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/ScrollBar/track_sb.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/Slider/thumb.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/Slider/track.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/Slider/tracklight.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/ToggleSwitch/handle.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/ToggleSwitch/off.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/assets/ToggleSwitch/on.png" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/default.res.json" afterPath="$PROJECT_DIR$/resource/default.res.json" />
+      <change beforePath="$PROJECT_DIR$/resource/default.thm.json" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/eui_skins/ButtonSkin.exml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/eui_skins/CheckBoxSkin.exml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/eui_skins/HScrollBarSkin.exml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/eui_skins/HSliderSkin.exml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/eui_skins/ItemRendererSkin.exml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/eui_skins/PanelSkin.exml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/eui_skins/ProgressBarSkin.exml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/eui_skins/RadioButtonSkin.exml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/eui_skins/ScrollerSkin.exml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/eui_skins/TextInputSkin.exml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/eui_skins/ToggleSwitchSkin.exml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/eui_skins/VScrollBarSkin.exml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/resource/eui_skins/VSliderSkin.exml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/AssetAdapter.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/Main.ts" afterPath="$PROJECT_DIR$/src/Main.ts" />
+      <change beforePath="$PROJECT_DIR$/src/ThemeAdapter.ts" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -139,62 +72,8 @@
       <file leaf-file-name="Main.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="89" column="52" lean-forward="false" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoadingUI.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/LoadingUI.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="46">
-              <caret line="29" column="63" lean-forward="false" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Bird.ts" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Bird.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scoreboard.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/assets/scoreboard.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="space_tip.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/assets/space_tip.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="default.res.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/default.res.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="flappybird_3.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flappybird_3.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="13" />
+            <state relative-caret-position="371">
+              <caret line="198" column="29" lean-forward="true" selection-start-line="198" selection-start-column="29" selection-end-line="198" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -224,8 +103,10 @@
       <list>
         <option value="$PROJECT_DIR$/flappybird_3.html" />
         <option value="$PROJECT_DIR$/src/Bird.ts" />
-        <option value="$PROJECT_DIR$/resource/default.res.json" />
         <option value="$PROJECT_DIR$/src/Main.ts" />
+        <option value="$PROJECT_DIR$/resource/default.res.json" />
+        <option value="$PROJECT_DIR$/egretProperties.json" />
+        <option value="$PROJECT_DIR$/bin-release/web/180605194250/js/main.min_dece6a81.js" />
       </list>
     </option>
   </component>
@@ -265,6 +146,11 @@
             <path>
               <item name="flap" type="b2602c69:ProjectViewProjectNode" />
               <item name="flap" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="flap" type="b2602c69:ProjectViewProjectNode" />
+              <item name="flap" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -306,18 +192,27 @@
       <option name="presentableId" value="Default" />
       <updated>1528125366431</updated>
       <workItem from="1528125367614" duration="8413000" />
-      <workItem from="1528196624475" duration="771000" />
+      <workItem from="1528196624475" duration="2853000" />
     </task>
+    <task id="LOCAL-00001" summary="初始化，第一次提交">
+      <created>1528197443129</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1528197443129</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9184000" />
+    <option name="totallyTimeSpent" value="11266000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="23" width="1641" height="1027" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13271604" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2080247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -341,6 +236,12 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="初始化，第一次提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化，第一次提交" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -409,24 +310,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flappybird_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/assets/space_tip.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resource/assets/scoreboard.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bin-debug/Main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-5187">
@@ -445,45 +328,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/AssetAdapter.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/LoadingUI.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="29" column="63" lean-forward="false" selection-start-line="29" selection-start-column="63" selection-end-line="29" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/modules/egret/egret.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="3181" column="8" lean-forward="false" selection-start-line="3181" selection-start-column="8" selection-end-line="3181" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bird.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="18" lean-forward="false" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/modules/assetsmanager/assetsmanager.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="645" column="13" lean-forward="false" selection-start-line="645" selection-start-column="13" selection-end-line="645" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource/default.thm.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -492,18 +336,187 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/libs/modules/egret/egret.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="10715" column="13" lean-forward="false" selection-start-line="10715" selection-start-column="13" selection-end-line="10715" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/modules/assetsmanager/assetsmanager.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="645" column="13" lean-forward="false" selection-start-line="645" selection-start-column="13" selection-end-line="645" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/resource/default.res.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="161">
+          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/assets/space_tip.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/assets/scoreboard.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/exml.e.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/AssetAdapter.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="80" column="15" lean-forward="false" selection-start-line="80" selection-start-column="15" selection-end-line="80" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bird.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/runtime/native_loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/runtime/native_require.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-449">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/runtime/runtime_loader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/template/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1378">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/egretProperties.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/LoadingUI.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="31" column="26" lean-forward="false" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Platform.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/flappybird_3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6765">
+          <caret line="56" column="17" lean-forward="false" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin-release/web/180605194250/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin-release/web/180605194250/js/main.min_dece6a81.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin-release/web/180605194250/resource/config/description.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin-release/web/180605194250/resource/default.res.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin-release/web/180605194250/js/assetsmanager.min_20ffd62d.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6575">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="89" column="52" lean-forward="false" selection-start-line="89" selection-start-column="52" selection-end-line="89" selection-end-column="52" />
+        <state relative-caret-position="371">
+          <caret line="198" column="29" lean-forward="true" selection-start-line="198" selection-start-column="29" selection-end-line="198" selection-end-column="29" />
           <folding />
         </state>
       </provider>
