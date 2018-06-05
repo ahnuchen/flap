@@ -1,0 +1,35 @@
+{
+    "file": "flappybirdimages.png",
+    "frames": {
+        "bird0": {
+            "x": 0,
+            "y": 0,
+            "w": 91,
+            "h": 64,
+            "offX": 1,
+            "offY": 0,
+            "sourceW": 91,
+            "sourceH": 64
+        },
+        "bird1": {
+            "x": 91,
+            "y": 0,
+            "w": 91,
+            "h": 64,
+            "offX": 1,
+            "offY": 0,
+            "sourceW": 91,
+            "sourceH": 64
+        },
+        "bird2": {
+            "x": 182,
+            "y": 0,
+            "w": 91,
+            "h": 64,
+            "offX": 1,
+            "offY": 0,
+            "sourceW": 91,
+            "sourceH": 64
+        }
+    }
+}
