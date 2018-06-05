@@ -1,61 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a0675044-c757-4bec-b177-a82784564d4b" name="Default" comment="">
+    <list default="true" id="a0675044-c757-4bec-b177-a82784564d4b" name="Default" comment="去掉了eui">
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/background.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/bird.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/ground.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/pipedown.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/pipeup.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/scoreboard.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/images/space_tip.png" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/die.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/hit.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/point.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/swooshing.mp3" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/sounds/wing.mp3" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/bin-debug/AssetAdapter.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin-debug/AssetAdapter.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin-debug/Main.js" afterPath="$PROJECT_DIR$/bin-debug/Main.js" />
-      <change beforePath="$PROJECT_DIR$/bin-debug/Main.js.map" afterPath="$PROJECT_DIR$/bin-debug/Main.js.map" />
-      <change beforePath="$PROJECT_DIR$/bin-debug/ThemeAdapter.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/bin-debug/ThemeAdapter.js.map" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/egretProperties.json" afterPath="$PROJECT_DIR$/egretProperties.json" />
-      <change beforePath="$PROJECT_DIR$/libs/exml.e.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/libs/modules/eui/eui.d.ts" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/libs/modules/eui/eui.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/libs/modules/eui/eui.min.js" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/manifest.json" afterPath="$PROJECT_DIR$/manifest.json" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/Button/button_down.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/Button/button_up.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/CheckBox/checkbox_select_disabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/CheckBox/checkbox_select_down.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/CheckBox/checkbox_select_up.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/CheckBox/checkbox_unselect.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/ItemRenderer/selected.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/Panel/border.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/Panel/header.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/ProgressBar/thumb_pb.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/ProgressBar/track_pb.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/RadioButton/radiobutton_select_disabled.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/RadioButton/radiobutton_select_down.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/RadioButton/radiobutton_select_up.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/RadioButton/radiobutton_unselect.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/ScrollBar/roundthumb.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/ScrollBar/track_sb.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/Slider/thumb.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/Slider/track.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/Slider/tracklight.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/ToggleSwitch/handle.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/ToggleSwitch/off.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/assets/ToggleSwitch/on.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/default.res.json" afterPath="$PROJECT_DIR$/resource/default.res.json" />
-      <change beforePath="$PROJECT_DIR$/resource/default.thm.json" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/eui_skins/ButtonSkin.exml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/eui_skins/CheckBoxSkin.exml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/eui_skins/HScrollBarSkin.exml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/eui_skins/HSliderSkin.exml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/eui_skins/ItemRendererSkin.exml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/eui_skins/PanelSkin.exml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/eui_skins/ProgressBarSkin.exml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/eui_skins/RadioButtonSkin.exml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/eui_skins/ScrollerSkin.exml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/eui_skins/TextInputSkin.exml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/eui_skins/ToggleSwitchSkin.exml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/eui_skins/VScrollBarSkin.exml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/resource/eui_skins/VSliderSkin.exml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/AssetAdapter.ts" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/Bird.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/Bird.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/LoadingUI.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/LoadingUI.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/Main.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/Main.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/Platform.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/bin-debug/Platform.js.map" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/flappybird_3.html" afterPath="$PROJECT_DIR$/原生js版本.html" />
       <change beforePath="$PROJECT_DIR$/src/Main.ts" afterPath="$PROJECT_DIR$/src/Main.ts" />
-      <change beforePath="$PROJECT_DIR$/src/ThemeAdapter.ts" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -72,8 +41,38 @@
       <file leaf-file-name="Main.ts" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="371">
-              <caret line="198" column="29" lean-forward="true" selection-start-line="198" selection-start-column="29" selection-end-line="198" selection-end-column="29" />
+            <state relative-caret-position="287">
+              <caret line="293" column="28" lean-forward="true" selection-start-line="293" selection-start-column="28" selection-end-line="293" selection-end-column="28" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="default.res.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resource/default.res.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bird.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Bird.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-196">
+              <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="原生js版本.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/原生js版本.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-8706">
+              <caret line="63" column="20" lean-forward="false" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -93,6 +92,13 @@
       <find>inter</find>
       <find>movespeed</find>
       <find>pace</find>
+      <find>birdvy</find>
+      <find>groundSpeed</find>
+      <find>endP</find>
+      <find>this.gameState</find>
+      <find>point</find>
+      <find>addChild</find>
+      <find>pointT</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -101,12 +107,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/flappybird_3.html" />
         <option value="$PROJECT_DIR$/src/Bird.ts" />
-        <option value="$PROJECT_DIR$/src/Main.ts" />
         <option value="$PROJECT_DIR$/resource/default.res.json" />
         <option value="$PROJECT_DIR$/egretProperties.json" />
         <option value="$PROJECT_DIR$/bin-release/web/180605194250/js/main.min_dece6a81.js" />
+        <option value="$PROJECT_DIR$/flappybird_3.html" />
+        <option value="$PROJECT_DIR$/src/Main.ts" />
       </list>
     </option>
   </component>
@@ -116,8 +122,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="39" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="153" />
     <option name="y" value="23" />
     <option name="width" value="1641" />
     <option name="height" value="1027" />
@@ -138,7 +144,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
@@ -147,15 +152,11 @@
               <item name="flap" type="b2602c69:ProjectViewProjectNode" />
               <item name="flap" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="flap" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flap" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -192,7 +193,8 @@
       <option name="presentableId" value="Default" />
       <updated>1528125366431</updated>
       <workItem from="1528125367614" duration="8413000" />
-      <workItem from="1528196624475" duration="2853000" />
+      <workItem from="1528196624475" duration="5344000" />
+      <workItem from="1528207754228" duration="12594000" />
     </task>
     <task id="LOCAL-00001" summary="初始化，第一次提交">
       <created>1528197443129</created>
@@ -201,27 +203,34 @@
       <option name="project" value="LOCAL" />
       <updated>1528197443129</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="去掉了eui">
+      <created>1528199662531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1528199662531</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11266000" />
+    <option name="totallyTimeSpent" value="26351000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="23" width="1641" height="1027" extended-state="0" />
+    <frame x="39" y="24" width="1641" height="1027" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2080247" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.119135804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32939914" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -241,13 +250,38 @@
     <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="初始化，第一次提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化，第一次提交" />
+    <MESSAGE value="去掉了eui" />
+    <option name="LAST_COMMIT_MESSAGE" value="去掉了eui" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="920">
+          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bird.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="72" lean-forward="true" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/原生js版本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8533">
+          <caret line="371" column="0" lean-forward="true" selection-start-line="371" selection-start-column="0" selection-end-line="371" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -282,7 +316,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/flappybird_3.html">
+    <entry file="file://$PROJECT_DIR$/原生js版本.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="529">
           <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="23" selection-end-column="13" />
@@ -297,14 +331,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/libs/modules/eui/eui.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219650">
-          <caret line="9550" column="10" lean-forward="false" selection-start-line="9550" selection-start-column="10" selection-end-line="9550" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/modules/eui/eui.d.ts" />
     <entry file="file://$PROJECT_DIR$/resource/assets/pipeup.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -328,14 +355,7 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/default.thm.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/default.thm.json" />
     <entry file="file://$PROJECT_DIR$/libs/modules/egret/egret.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -352,40 +372,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/default.res.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource/assets/space_tip.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/assets/scoreboard.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/libs/exml.e.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-684">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/AssetAdapter.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/libs/exml.e.d.ts" />
+    <entry file="file://$PROJECT_DIR$/src/AssetAdapter.ts" />
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="550">
@@ -394,19 +387,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Bird.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/template/runtime/native_loader.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -422,7 +406,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -443,7 +426,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="6" column="4" lean-forward="false" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -459,15 +441,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/flappybird_3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6765">
-          <caret line="56" column="17" lean-forward="false" selection-start-line="56" selection-start-column="17" selection-end-line="56" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -475,9 +448,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
-          <folding>
-            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -493,7 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -501,7 +471,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -509,14 +478,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-6575">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/assets/scoreboard.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/default.res.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Bird.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="20" column="9" lean-forward="false" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/原生js版本.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8706">
+          <caret line="63" column="20" lean-forward="false" selection-start-line="63" selection-start-column="20" selection-end-line="63" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Main.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="371">
-          <caret line="198" column="29" lean-forward="true" selection-start-line="198" selection-start-column="29" selection-end-line="198" selection-end-column="29" />
+        <state relative-caret-position="287">
+          <caret line="293" column="28" lean-forward="true" selection-start-line="293" selection-start-column="28" selection-end-line="293" selection-end-column="28" />
           <folding />
         </state>
       </provider>

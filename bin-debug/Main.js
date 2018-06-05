@@ -50,28 +50,25 @@ var Main = (function (_super) {
         var _this = _super.call(this) || this;
         _this.grounds = [];
         _this.groundSpeed = 0.2;
+        _this.pipeSpeed = 0.2;
         _this.timeOnEnterFrame = 0;
         _this.pipeWidth = 120;
         _this.pipeHeight = [];
         _this.pipeOnBox = [[0, 0], [0, 0], [0, 0]];
         _this.pipeInterval = _this.pipeWidth + 210;
-        _this.blankWidth = 140;
+        _this.blankWidth = 200;
         _this.pipeNumber = 0;
         _this.gameState = 0; //游戏状态：0--未开始，1--已开始，2--已结束
+        _this.birdGravityVy = 1 / 30;
+        _this.birdVy = 0;
+        _this.birdVup = 11;
+        _this.birdHitPipe = false;
+        _this.maxScore = new egret.TextField();
+        _this.scoreOfThisTime = new egret.TextField();
+        _this.pointText = new egret.TextField();
         _this.pipeUps = [];
         _this.pipeDowns = [];
-        egret.lifecycle.addLifecycleListener(function (context) {
-            // custom lifecycle plugin
-        });
-        egret.lifecycle.onPause = function () {
-            egret.ticker.pause();
-        };
-        egret.lifecycle.onResume = function () {
-            egret.ticker.resume();
-        };
-        _this.runGame().catch(function (e) {
-            console.log(e);
-        });
+        _this.runGame().catch(function (e) { return console.log(e); });
         return _this;
     }
     Main.prototype.runGame = function () {
@@ -85,26 +82,36 @@ var Main = (function (_super) {
                         this.getInitialGround();
                         this.initPipe();
                         this.initStartPage();
-                        this.addEventListener(egret.Event.ENTER_FRAME, this.onEnterFrame, this);
+                        this.addEventListener(egret.Event.ENTER_FRAME, this.onTick, this);
+                        this.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onTouchState, this);
                         this.timeOnEnterFrame = egret.getTimer();
                         this.bird = new Bird();
                         this.bird.x = 100;
-                        this.bird.y = 100;
+                        this.bird.y = 200;
                         this.addChild(this.bird);
+                        this.pointText.text = "0";
+                        this.pointText.size = 50;
+                        this.pointText.textColor = 0xffffff;
+                        this.pointText.y = 100;
+                        this.pointText.x = this.stage.stageWidth / 2;
+                        this.addChild(this.pointText);
                         return [2 /*return*/];
                 }
             });
         });
     };
-    Main.prototype.onEnterFrame = function (e) {
+    Main.prototype.onTick = function (e) {
         var now = egret.getTimer();
         var time = this.timeOnEnterFrame;
         this.deltaTime = now - time;
-        // console.log("onEnterFrame: ", (1000 / this.deltaTime).toFixed(5));
         this.timeOnEnterFrame = egret.getTimer();
         this.playGround();
         if (this.gameState === 1) {
             this.drawAllPipe();
+            this.drawBird();
+            if (!this.birdHitPipe) {
+                this.checkHit();
+            }
         }
     };
     Main.prototype.loadResource = function () {
@@ -125,6 +132,11 @@ var Main = (function (_super) {
                         // await this.loadTheme();
                         _a.sent();
                         this.removeChild(loadingView);
+                        this.voiceWings = RES.getRes("wing_mp3");
+                        this.voiceBonus = RES.getRes("point_mp3");
+                        this.voiceHit = RES.getRes("hit_mp3");
+                        this.voiceOver = RES.getRes("die_mp3");
+                        this.endPage = this.createBitmapByName("scoreboard_png");
                         return [3 /*break*/, 4];
                     case 3:
                         e_1 = _a.sent();
@@ -145,7 +157,7 @@ var Main = (function (_super) {
         this.addChild(this.sky);
     };
     Main.prototype.initPipe = function () {
-        for (var i = 0; i < 200; i++) {
+        for (var i = 0; i < 300; i++) {
             this.pipeHeight[i] = Math.ceil(Math.random() * 256) + 100; //高度范围从56~272
         }
         for (var i = 0; i < 3; i++) {
@@ -158,18 +170,18 @@ var Main = (function (_super) {
             pipeUp.height = this.pipeOnBox[i][1];
             pipeUp.y = this.sky.height - pipeUp.height;
             this.pipeUps.push(pipeUp);
-            this.addChild(pipeUp);
+            this.addChildAt(pipeUp, 1);
             var pipeDown = this.createBitmapByName("pipedown_png");
             pipeDown.width = this.pipeWidth;
             pipeDown.x = pipeUp.x;
             pipeDown.height = this.sky.height - this.blankWidth - pipeUp.height;
             this.pipeDowns.push(pipeDown);
-            this.addChild(pipeDown);
+            this.addChildAt(pipeDown, 1);
         }
     };
     Main.prototype.drawAllPipe = function () {
         for (var i = 0; i < 3; i++) {
-            this.pipeOnBox[i][0] = this.pipeOnBox[i][0] - this.groundSpeed * this.deltaTime;
+            this.pipeOnBox[i][0] = this.pipeOnBox[i][0] - this.pipeSpeed * this.deltaTime;
         }
         if (this.pipeOnBox[0][0] <= -this.pipeWidth) {
             this.pipeOnBox[0][0] = this.pipeOnBox[1][0];
@@ -236,7 +248,103 @@ var Main = (function (_super) {
     Main.prototype.startGame = function () {
         this.removeChild(this.startPage);
         this.gameState = 1;
-        this.bird.status = 0;
+        this.touchEnabled = true;
+    };
+    Main.prototype.gameOver = function () {
+        this.gameState = 2;
+        this.touchEnabled = true;
+        this.endPage.touchEnabled = true;
+        this.endPage.addEventListener(egret.TouchEvent.TOUCH_TAP, this.gamePrepare, this);
+        this.endPage.x = this.startPage.x;
+        this.endPage.width = this.startPage.width;
+        this.endPage.height = this.startPage.height;
+        this.endPage.y = this.startPage.y;
+        this.addChild(this.endPage);
+    };
+    Main.prototype.gamePrepare = function () {
+        this.bird.status = 1;
+        this.bird.x = 100;
+        this.bird.y = 200;
+        this.pipeSpeed = this.groundSpeed;
+        this.pointText.text = '0';
+        this.pointText.x = this.stage.stageWidth / 2;
+        this.pointText.y = 100;
+        for (var _i = 0, _a = this.pipeDowns; _i < _a.length; _i++) {
+            var obj = _a[_i];
+            this.removeChild(obj);
+        }
+        for (var _b = 0, _c = this.pipeUps; _b < _c.length; _b++) {
+            var obj = _c[_b];
+            this.removeChild(obj);
+        }
+        this.pipeDowns = [];
+        this.pipeUps = [];
+        this.birdHitPipe = false;
+        this.initPipe();
+        this.bird.rotation = 0;
+        this.removeChild(this.endPage);
+        this.addChild(this.startPage);
+        this.gameState = 0;
+    };
+    Main.prototype.drawBird = function () {
+        if (this.gameState !== 0) {
+            this.bird.y += this.birdVy;
+            this.birdVy += this.birdGravityVy * this.deltaTime;
+        }
+        if (this.birdVy <= 6) {
+            this.bird.rotation = -30;
+        }
+        else {
+            this.bird.rotation = this.birdVy * 2;
+            if (this.bird.rotation > 90) {
+                this.bird.rotation = 90;
+            }
+        }
+        if (this.bird.y > this.sky.height - this.bird.height) {
+            this.bird.y = this.sky.height - this.bird.height;
+            this.bird.status = 0;
+            if (!this.birdHitPipe) {
+                this.voiceHit.play(0, 1);
+            }
+            this.voiceOver.play(0, 1);
+            this.gameOver();
+        }
+    };
+    Main.prototype.onTouchState = function () {
+        this.birdVy = -this.birdVup;
+        this.voiceWings.play(0, 1);
+    };
+    // 碰撞检测
+    Main.prototype.checkHit = function () {
+        var checkPoints = [
+            [this.bird.x + this.bird.width, this.bird.y - this.bird.height / 2],
+            [this.bird.x + this.bird.width / 2, this.bird.y],
+            [this.bird.x + this.bird.width / 2, this.bird.y + this.bird.height],
+            [this.bird.x + this.bird.width, this.bird.y + this.bird.height],
+            [this.bird.x + this.bird.width, this.bird.y + this.bird.height] //头
+        ];
+        for (var _i = 0, _a = this.pipeDowns.concat(this.pipeUps); _i < _a.length; _i++) {
+            var pipe = _a[_i];
+            for (var _b = 0, checkPoints_1 = checkPoints; _b < checkPoints_1.length; _b++) {
+                var point = checkPoints_1[_b];
+                var isHit = pipe.hitTestPoint(point[0], point[1]);
+                if (isHit) {
+                    this.bird.status = 0;
+                    this.pipeSpeed = 0;
+                    this.voiceHit.play(0, 1);
+                    this.birdHitPipe = true;
+                    this.touchEnabled = false;
+                    return false;
+                }
+            }
+        }
+        //检测得分
+        if (this.bird.x > this.pipeOnBox[0][0] + this.pipeWidth && this.bird.x < this.pipeOnBox[0][0] + this.pipeWidth + this.deltaTime * this.pipeSpeed
+            || this.bird.x > this.pipeOnBox[1][0] + this.pipeWidth && this.bird.x < this.pipeOnBox[1][0] + this.pipeWidth + this.deltaTime * this.pipeSpeed) {
+            this.voiceBonus.play(0, 1);
+            var score = parseInt(this.pointText.text) + 1;
+            this.pointText.text = score.toString();
+        }
     };
     return Main;
 }(egret.DisplayObjectContainer));
